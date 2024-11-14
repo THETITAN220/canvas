@@ -17,8 +17,8 @@ function App() {
           <Route path='/appointment' element= {<Appointment />} />
           <Route path='/Log' element={<Log />} />
         </Routes>
-        <appointment/>
       </BrowserRouter>
+      <Appointment/>
     </>
   )
 }
