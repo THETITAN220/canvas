@@ -3,6 +3,7 @@ import { BrowserRouter , Routes, Route } from 'react-router-dom'
 import './App.css'
 import Landing from './pages/Landing'
 import Login from './pages/Login'
+import appointment from './pages/appointment'
 
 function App() {
 
