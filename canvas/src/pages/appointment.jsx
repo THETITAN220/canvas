@@ -117,11 +117,7 @@ const Appointment = () => {
         {selectedDoctor ? (
           <div className="doctor-profile">
             <div className="doctor-header">
-              <img 
-                src={selectedDoctor.image} 
-                alt={selectedDoctor.name} 
-                className="doctor-image"
-              />
+              
               <div className="doctor-basic-info">
                 <h2>{selectedDoctor.name}</h2>
                 <p className="specialty-tag">{selectedDoctor.specialty}</p>
