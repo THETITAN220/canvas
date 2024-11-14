@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import './Log.css';
+import Logo from '../components/Logo'
 
 function Log() {
   const navigate = useNavigate();
@@ -64,6 +65,7 @@ function Log() {
 
   return (
     <div className="login-container">
+    <Logo />
       <div className="login-card">
         <h2>Login to Your Account</h2>
         <form onSubmit={handleSubmit} className="login-form">
