@@ -9,3 +9,29 @@
     margin-top: 100px;
     flex: 1;
 }
+
+.about-section {
+    background-color: #f8f9fa; /* Light background for readability */
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+    color: #333; /* Dark gray for easy readability */
+}
+
+.about-section p {
+    font-size: 1.1rem; /* Slightly larger font */
+    line-height: 1.6; /* Improved readability */
+    margin-bottom: 1.5rem; /* Space at the bottom */
+}
+
+.about-section h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #007bff; /* Accent color for header */
+    margin-bottom: 1rem;
+}
+
+.about-section span {
+    color: #28a745; /* Green accent for 'partner in well-being' */
+    font-weight: 600;
+}
