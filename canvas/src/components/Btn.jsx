@@ -1,11 +1,9 @@
-
+// Btn.jsx
 import './Btn.css'
 
-const Btn = (text) => {
+const Btn = ({ text }) => {
   return (
-   <>
-        <button>{text}</button>
-   </>
+    <button>{text}</button>
   )
 }
 

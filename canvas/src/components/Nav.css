@@ -1,0 +1,80 @@
+/* Nav.css */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 5%;
+    background-color: #FF6700;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.nav-brand {
+    flex-shrink: 0;
+}
+
+.brand-name {
+    font-size: 1.5rem;
+    font-weight: bold;
+    background-color: #23c483;
+    color: #fff;
+    text-decoration: none;
+}
+
+.nav-links {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-grow: 1;
+    margin-left: 2rem;
+}
+
+.left-links {
+    display: flex;
+    gap: 2rem;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+    color: #23c483;
+}
+
+.nav-link.active {
+    color: #23c483;
+}
+
+.right-buttons {
+    display: flex;
+    gap: 1rem;
+}
+
+/* Media query for responsive design */
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        padding: 1rem;
+    }
+
+    .nav-links {
+        flex-direction: column;
+        margin-left: 0;
+        margin-top: 1rem;
+        width: 100%;
+        gap: 1rem;
+    }
+
+    .left-links {
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+    }
+
+    .right-buttons {
+        margin-top: 1rem;
+    }
+}
