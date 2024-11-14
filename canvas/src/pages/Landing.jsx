@@ -3,9 +3,7 @@ export default function Landing(){
 
     return(
         <>
-        <header>
-            <Nav/>
-        </header>
+        <Nav />
             
         </>
     )
