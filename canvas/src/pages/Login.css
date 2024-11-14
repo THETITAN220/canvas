@@ -149,3 +149,19 @@
       transform: translateY(0);
     }
   }
+
+  .logoHead {
+    position: absolute;
+    top: 20px;
+    text-align: center;
+}
+
+.logoHeading {
+    color: #fff;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.logoSpan {
+    color: #ff6700;
+}

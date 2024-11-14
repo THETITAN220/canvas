@@ -2,7 +2,7 @@
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import './Login.css';
-import Logo from '../components/Logo'
+
 
 
 function Login() {
@@ -79,8 +79,8 @@ function Login() {
 
   return (
     <div className="signup-container">
-    <div>
-      <Logo />
+    <div className='logoHead'>
+      <h1 className='logoHeading' >Health<span className='logoSpan'>Hub</span></h1>
     </div>
       <div className="signup-card">
         <h2>Create an Account</h2>
