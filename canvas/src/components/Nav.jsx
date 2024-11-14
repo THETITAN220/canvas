@@ -39,7 +39,7 @@ const Nav = () => {
       </div>
 
       <div className={`nav-buttons ${isMenuOpen ? 'active' : ''}`}>
-        <Btn text="Login" type="secondary" path="/Login" />
+        <Btn text="Login" type="secondary" path="/Log" />
         <Btn text="Sign Up" type="primary" path="/Login" />
       </div>
     </nav>
