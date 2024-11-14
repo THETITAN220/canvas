@@ -65,7 +65,9 @@ function Log() {
 
   return (
     <div className="login-container">
-    <Logo />
+    <div>
+        <Logo />
+    </div>
       <div className="login-card">
         <h2>Login to Your Account</h2>
         <form onSubmit={handleSubmit} className="login-form">
