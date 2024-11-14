@@ -5,7 +5,7 @@ export default function Appointment() {
      <>
      <div>
         <div className="appointment">
-        <input type="text" class="search-box" placeholder="Search"/>
+        <input type="text" className="search-box" placeholder="Search"/>
         <button className="img1"></button>
         
         </div>
