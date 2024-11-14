@@ -1,0 +1,16 @@
+/* components/Logo.css */
+.logo {
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+  }
+  
+  .logo-health {
+    color: white; /* Makes "Health" appear in white */
+  }
+  
+  .logo-hub {
+    color: #ff6700; /* Custom color for "Hub" */
+    margin-left: 0.2rem;
+  }
+  

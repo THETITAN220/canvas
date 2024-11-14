@@ -2,6 +2,8 @@
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import './Login.css';
+import Logo from '../components/Logo'
+
 
 function Login() {
   const navigate = useNavigate();
@@ -77,6 +79,9 @@ function Login() {
 
   return (
     <div className="signup-container">
+    <div>
+      <Logo />
+    </div>
       <div className="signup-card">
         <h2>Create an Account</h2>
         <form onSubmit={handleSubmit} className="signup-form">
