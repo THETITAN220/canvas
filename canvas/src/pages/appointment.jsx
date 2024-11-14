@@ -1,9 +1,9 @@
  
 
-export default function appointment() {
+export default function Appointment() {
   return (
      <>
-     <main>
+     <div>
         <div className="appointment">
         <input type="text" class="search-box" placeholder="Search"/>
         <button className="img1"></button>
@@ -14,7 +14,7 @@ export default function appointment() {
             
             </div>
         </div>
-     </main>
+     </div>
      </>
   )
 }
