@@ -87,7 +87,7 @@
   
   .doctor-btn.active {
     border-color: #0077b6;
-    background-color: #e6f3ff;
+    background-color:#0077b6  ;
   }
   
   .doctor-profile {
@@ -98,6 +98,8 @@
   
   .doctor-header {
     display: flex;
+    align-items: center;
+    justify-content: center;
     gap: 2rem;
     align-items: start;
   }
@@ -110,13 +112,20 @@
   }
   
   .doctor-basic-info {
-    flex-grow: 1;
+     text-align: center;
+    color: white;
+    background-color:#0076b6;
+    padding: 10px;
+    padding-right: 25px;
+    border-radius: 10px;
+    
+
   }
   
   .specialty-tag {
     display: inline-block;
     padding: 0.25rem 0.75rem;
-    background-color: #e6f3ff;
+    background-color:   white;
     color: #0077b6;
     border-radius: 20px;
     margin: 0.5rem 0;
@@ -127,10 +136,17 @@
     grid-template-columns: repeat(2, 1fr);
     gap: 1.5rem;
   }
+.doctor-details
+{
+    margin: 20px;
+    border: 2px solid #004d77;
+    border-radius: 5px;
+    color: white;
+}
   
   .info-card {
     padding: 1.5rem;
-    background-color: #f8f8f8;
+    background-color:  #0076b6;
     border-radius: 8px;
   }
   
