@@ -31,6 +31,8 @@ const nav = () => {
           <a className="nav-link disabled" aria-disabled="true">Disabled</a>
         </li>
       </ul>
+      <button className="btn " type="submit">Sign In</button>
+
     </div>
   </div>
 </nav>
