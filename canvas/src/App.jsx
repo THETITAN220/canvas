@@ -4,6 +4,7 @@ import './App.css'
 import Landing from './pages/Landing'
 import Login from './pages/Login'
 import Appointment from './pages/appointment'
+import Log from './pages/Log'
 
 function App() {
 
@@ -14,6 +15,7 @@ function App() {
           <Route path='/' element= {<Landing/>} />
           <Route path='/Login' element= {<Login/>} />
           <Route path='/appointment' element= {<Appointment />} />
+          <Route path='/Log' element={<Log />} />
         </Routes>
         <appointment/>
       </BrowserRouter>
