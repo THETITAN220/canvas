@@ -31,7 +31,7 @@ const Appointment = () => {
       {
         id: 2,
         name: "Dr. Michael Chen",
-        specialty: "Cardiology",
+        specialty: " Dermatology",
         experience: "12 years",
         education: "MD - Cardiology, MBBS",
         description: "Dr. Chen specializes in preventive cardiology and cardiac rehabilitation. He is known for his patient-centered approach to heart health.",
