@@ -26,7 +26,7 @@ const Appointment = () => {
         education: "MD - Cardiology, MBBS",
         description: "Dr. Johnson is a renowned cardiologist specializing in interventional cardiology and heart failure management. She has performed over 1000 successful cardiac procedures.",
         availability: "Mon-Fri, 9:00 AM - 5:00 PM",
-        image: "/api/placeholder/150/150"
+        image: "C:/Users/Lenovo/vscode/canvas/canvas/src/assets/Johnson.webp"
       },
       {
         id: 2,
@@ -62,6 +62,10 @@ const Appointment = () => {
       }
     ],
     // Add more specialties as needed
+  };
+  const booked =() =>
+  {
+        alert("Appointmnet booked!!");
   };
 
   const [selectedSpecialty, setSelectedSpecialty] = useState(specialties[0]);
@@ -140,7 +144,7 @@ const Appointment = () => {
               </div>
             </div>
 
-            <button className="book-appointment-btn">
+            <button className="book-appointment-btn" onClick={booked}>
               Book Appointment
             </button>
           </div>
