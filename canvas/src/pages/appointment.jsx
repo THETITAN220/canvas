@@ -65,7 +65,7 @@ const Appointment = () => {
   };
   const booked =() =>
   {
-        alert("Appointmnet booked!!");
+        alert("Appointment booked!!");
   };
 
   const [selectedSpecialty, setSelectedSpecialty] = useState(specialties[0]);
