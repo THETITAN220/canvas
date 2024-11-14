@@ -1,4 +1,7 @@
 import React, { useState } from 'react';
+import Carousel from "../components/Carousel"
+import Footer from "../components/Footer"
+import Nav from "../components/nav"
 import './Appointment.css';
 
 const Appointment = () => {
@@ -64,14 +67,17 @@ const Appointment = () => {
   const [selectedSpecialty, setSelectedSpecialty] = useState(specialties[0]);
 
   return (
-    <div className="appointment-container">
+        <>
+        <Nav />
+
+    <div className="appointment-container mx-3">
       {/* Left Sidebar - 1/3 width */}
       <div className="specialty-sidebar">
-        <h2>Select Specialty</h2>
+        <h2>Select Specialist</h2>
         <div className="specialty-search">
           <input 
             type="text" 
-            placeholder="Search specialty..." 
+            placeholder="Search Specialist" 
             className="search-input"
           />
         </div>
@@ -146,6 +152,8 @@ const Appointment = () => {
         )}
       </div>
     </div>
+    <Footer />
+    </>
   );
 };
 export default Appointment;
