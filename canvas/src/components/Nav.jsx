@@ -22,7 +22,7 @@ const Nav = () => {
     <nav className="nav-container">
       <div className="nav-logo">
         <Link to="/">
-          <h1>Health<span>Care</span></h1>
+          <h1>Health<span>Hub</span></h1>
         </Link>
       </div>
 
