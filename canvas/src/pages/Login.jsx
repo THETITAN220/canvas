@@ -1,8 +1,10 @@
 // Login.jsx
 import React, { useState } from 'react';
+import { useNavigate } from 'react-router-dom';
 import './Login.css';
 
-export default function Login() {
+function Login() {
+  const navigate = useNavigate();
   const [formData, setFormData] = useState({
     name: '',
     email: '',
@@ -39,7 +41,7 @@ export default function Login() {
     return newErrors;
   };
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
     setIsSubmitting(true);
     
@@ -47,8 +49,19 @@ export default function Login() {
     setErrors(newErrors);
 
     if (Object.keys(newErrors).length === 0) {
-      // Handle successful signup here
-      console.log('Form submitted:', formData);
+      try {
+        // Here you would typically make an API call to register the user
+        console.log('Form submitted:', formData);
+        
+        // Simulate API call delay
+        await new Promise(resolve => setTimeout(resolve, 1000));
+        
+        // Navigate to landing page after successful signup
+        navigate('/');
+      } catch (error) {
+        console.error('Signup error:', error);
+        // Handle any signup errors here
+      }
     }
     
     setIsSubmitting(false);
@@ -126,3 +139,4 @@ export default function Login() {
   );
 }
 
+export default Login;
