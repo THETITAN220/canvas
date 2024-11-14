@@ -1,9 +1,10 @@
+
 import './Btn.css'
 
-const Btn = () => {
+const Btn = (text) => {
   return (
    <>
-        <button></button>
+        <button>{text}</button>
    </>
   )
 }

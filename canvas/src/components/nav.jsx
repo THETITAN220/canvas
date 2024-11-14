@@ -1,5 +1,5 @@
 import Btn from "./Btn"
-const nav = () => {
+export default function Nav(){
   return (
     <>
         <nav className="navbar navbar-expand-lg ">
@@ -30,9 +30,9 @@ const nav = () => {
 
       </ul>
       <div className="d-flex gap-2">
-              <Btn>Sign In</Btn>
-              <Btn>Sign Up</Btn>
-            </div>
+  <Btn text="Sign In" />
+  <Btn text="Sign Up" />
+</div>
 
     </div>
   </div>
@@ -41,4 +41,4 @@ const nav = () => {
   )
 }
 
-export default nav
+
