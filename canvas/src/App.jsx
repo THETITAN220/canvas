@@ -18,7 +18,7 @@ function App() {
           <Route path='/Log' element={<Log />} />
         </Routes>
       </BrowserRouter>
-      <Appointment/>
+  
     </>
   )
 }

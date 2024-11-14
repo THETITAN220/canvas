@@ -8,19 +8,19 @@ const Carousel = () => {
   const slides = [
     {
       id: 1,
-      url: "/api/placeholder/1200/400",
+      url: "/src/assets/carousel1.jpg",
       title: "Healthcare Services",
       description: "Quality healthcare at your fingertips"
     },
     {
       id: 2,
-      url: "/api/placeholder/1200/400",
+      url: "/src/assets/carousel2.jpg",
       title: "Expert Doctors",
       description: "Connect with experienced healthcare professionals"
     },
     {
       id: 3,
-      url: "/api/placeholder/1200/400",
+      url: "/src/assets/carousel3.jpg",
       title: "Modern Facilities",
       description: "State-of-the-art medical facilities"
     }
