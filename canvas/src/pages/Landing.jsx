@@ -16,7 +16,7 @@ export default function Landing() {
               <strong>Welcome to HealthHub, your personalized healthcare companion.</strong>
               <br />
               <br />
-              We're here to simplify your healthcare journey, making it easier to find top-notch medical professionals and schedule appointments.
+                We are here to simplify your healthcare journey, making it easier to find top-notch medical professionals and schedule appointments.
               <br />
               <br />
               <strong>With HealthHub, you can:</strong>
