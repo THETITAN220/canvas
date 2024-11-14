@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
-import Carousel from "../components/Carousel"
 import Footer from "../components/Footer"
-import Nav from "../components/nav"
+import Nav from "../components/Nav"
 import './Appointment.css';
 
 const Appointment = () => {
