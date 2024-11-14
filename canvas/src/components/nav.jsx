@@ -1,4 +1,4 @@
-
+import Btn from "./Btn"
 const nav = () => {
   return (
     <>
@@ -14,7 +14,7 @@ const nav = () => {
           <a className="nav-link active" aria-current="page" href="#">Home</a>
         </li>
         <li className="nav-item">
-          <a className="nav-link" href="#">Link</a>
+          <a className="nav-link" href="#">Appointments</a>
         </li>
         <li className="nav-item dropdown">
           <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -27,11 +27,12 @@ const nav = () => {
             <li><a className="dropdown-item" href="#">Something else here</a></li>
           </ul>
         </li>
-        <li className="nav-item">
-          <a className="nav-link disabled" aria-disabled="true">Disabled</a>
-        </li>
+
       </ul>
-      <button className="btn " type="submit">Sign In</button>
+      <div className="d-flex gap-2">
+              <Btn>Sign In</Btn>
+              <Btn>Sign Up</Btn>
+            </div>
 
     </div>
   </div>
