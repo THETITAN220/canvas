@@ -1,8 +1,8 @@
-/* From Uiverse.io by cssbuttons-io */ 
+
 button {
     padding: 1.3em 3em;
     font-size: 12px;
-    text-transform: uppercase;
+    text-transform: capitalize;
     letter-spacing: 2.5px;
     font-weight: 500;
     color: #000;
