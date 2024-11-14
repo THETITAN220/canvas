@@ -1,0 +1,49 @@
+/* Btn.css */
+.custom-btn {
+    padding: 0.8rem 1.5rem;
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    border: 2px solid transparent;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+  }
+  
+  .custom-btn.primary {
+    background-color: #0077b6;
+    color: white;
+    border-color: #0077b6;
+  }
+  
+  .custom-btn.primary:hover {
+    background-color: #005d8f;
+    border-color: #005d8f;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0, 119, 182, 0.2);
+  }
+  
+  .custom-btn.secondary {
+    background-color: transparent;
+    color: #0077b6;
+    border-color: #0077b6;
+  }
+  
+  .custom-btn.secondary:hover {
+    background-color: rgba(0, 119, 182, 0.1);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0, 119, 182, 0.1);
+  }
+  
+  .custom-btn:active {
+    transform: translateY(0);
+    box-shadow: none;
+  }
+  
+  @media (max-width: 768px) {
+    .custom-btn {
+      width: 100%;
+      max-width: 200px;
+    }
+  }
